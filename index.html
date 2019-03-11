@@ -1,0 +1,191 @@
+<!doctype html>
+
+<html>
+
+<head> 
+<title>My Website</title>
+<meta charset="utf-8">		
+<link href="style.css" type="text/css" 		 			 rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Staatliches" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+
+<style>
+
+body{
+  font-family: 'Staatliches', cursive;
+  background-color: #5A76AA;
+}
+header{
+  background-color: #8DA9DD;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+p{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+   color: #24427A;
+}
+
+li{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#links {
+  text-align: center;
+  float: left;
+  width: 15%;
+  background: #C8D5EF;
+  height: 902px;
+}
+article {
+  position: left;
+  float: left;
+  width: 85%;
+  background-color: #E2EAF8;
+  height: 902px;
+}
+p {
+color: #091D34;
+}
+
+#yes {
+ padding 30px;
+}
+footer{
+ background-color: rgb(102, 102, 102);
+ text-align: center;
+}
+thead th {
+  background: #595959;
+  color: #FFF;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+td{
+  background: #d9d9d9;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: left;
+  width: 33.3333%;
+}
+#yes {
+padding-left: 10px;
+}
+# links a {
+text-decoration: none;
+color: white;
+}
+</style>
+
+</head>
+
+<body>
+		
+ <header>
+	<h1><strong><em>UMBRELLAS AND CRAYONS</em></strong></h1>
+ </header>
+
+<div id="links">
+<h3> Reference Links:</h3>
+
+ <nav border="1">
+  <p><a href="#intro">What are Umbrellas</a></p>
+  <p><a href="#facts">Fun Facts About Umbrellas</a></p>
+  <p><a href="#pics">Umbrella Pictures</a></p>
+  <p><a href="#table">Crayon Info</a></p>
+ </nav>
+</div>
+
+<article>
+<section id="yes">
+<div id="intro">
+ <h2>What ARE umbrellas?</h2>
+  <p>An <strong>umbrella</strong> or <strong>parasol</strong> is a folding canopy supported by wooden or metal ribs, which is mounted on a wooden, metal, or plastic pole. It is designed to protect a person against rain or sunlight. The word <em>umbrella</em> typically refers to a device used for protection from rain. The word <em>parasol</em> usually means to be protected by the sun.<br>Umbrellas and parasols are primarily hand-held portable devices sized for personal use. The largest hand-portable umbrellas are golf umbrellas. Umbrellas can be divided into two categories: fully collapsible umbrellas, in which the metal pole supporting the canopy retracts, making the umbrella small enough to fit in a handbag; and non-collapsible umbrellas, in which the support pole cannot retract and only the canopy can be collapsed. Another distinction can be made between manually operated umbrellas and spring-loaded automatic umbrellas which spring open at the press of a button.<br><br>To learn more about umbrellas, click <a href="https://en.wikipedia.org/wiki/Umbrella" target="_blank">here</a>.</p> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Man_sitting_under_beach_umbrella.JPG/220px-Man_sitting_under_beach_umbrella.JPG"/ width="100" height="152" title="an umbrella">
+</div>
+
+<div id="facts">
+<h2>Fun Facts About Umbrellas</h2>
+
+<ul>
+<li><p>The word umbrella comes from the Latin word "umbros" which means shade or shadow.</p></li>
+<li><p>Modern day widespread acceptance of umbrellas started to spread across the Europe in middle of 18th century.</p></li>
+<li><p>The first man who publicly carried umbrella was Englishman Jonas Hanway.</p></li>
+</ul>
+<p><a href="http://www.umbrellahistory.net/umbrella-facts/interesting-facts-about-umbrellas/" target="_blank">More facts here</a></p>
+</div>
+
+<div id="pics">
+
+<h2>Pictures of Umbrellas</h2>
+
+<img src="https://pixel.nymag.com/imgs/daily/strategist/2018/04/13/umbrella/totes-Auto-Open-Wooden-Stick-Umbrella.w710.h473.2x.jpg" width="100" height="67">
+</div>
+
+</section>
+
+<section id="table">
+
+<table>
+	<thead>
+	 <tr>
+	  <th>type of crayon</th>
+	  <th>time it was made</th>
+	  <th>type</th>
+	 </tr>
+</thead>
+	 <tr>
+	  <td>Crayola</td>
+	  <td>1984</td>
+	  <td>Non-Toxic</td>
+	 </tr>
+
+	 <tr>
+	  <td>Cra-Z-Art</td>
+	  <td>1978</td>
+	  <td>Non-Toxic</td>
+	 </tr>
+
+	 <tr>
+	  <td>RoseArt</td>
+	  <td>1923</td>
+	  <td>Non-Toxic</td>
+	 </tr>
+
+</table>
+
+</section>
+
+<form>
+
+<p>What is your favorite crayon color</p>
+<label for="red"></label>
+<input id="red" name="red" type="radio" value="red">Red</input>
+<label for="blue"></label>
+<input id="blue" name="blue" type="radio" value="blue">Blue</input>
+<label for="brown"></label>
+<input id="brown" name="brown" type="radio" value="brown">Brown</input>
+<label for="crayon"></label>
+<input id="crayon" name="crayon" type="radio" value="crayon">Crayon</input>
+<br>
+<input type="submit" value="Send">
+
+
+</form>
+
+</article>
+</body>
+
+
+</html>
+
